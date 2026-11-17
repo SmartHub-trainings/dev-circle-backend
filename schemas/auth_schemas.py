@@ -5,7 +5,7 @@ class UserCreate(BaseModel):
     first_name: str
     last_name: str
     email: EmailStr
-    role:Literal['learner', 'engineer'] = 'user'
+    role:Literal['learner', 'engineer'] = 'learner'
     password: str
     bio:str
     profession:str
